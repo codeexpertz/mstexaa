@@ -1,0 +1,80 @@
+/* Chatbot.css */
+
+/* Customize chat container */
+/* .react-chatbot-kit-chat-container {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+/* Customize inner chat container */
+/* .react-chatbot-kit-chat-inner-container {
+  padding: 20px;
+} */
+
+/* Customize chat header */
+/* .react-chatbot-kit-chat-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+} */
+
+/* Customize input container */
+/* .react-chatbot-kit-chat-input-container {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+
+/* Customize message container */
+.react-chatbot-kit-chat-message-container .options-container button {
+  color: blue;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 3px;
+  margin-top: 3px;
+}
+
+/* Customize user input field */
+/* .react-chatbot-kit-chat-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+/* Customize send button */
+/* .react-chatbot-kit-chat-btn-send {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+} */
+
+/* Customize bot message container */
+/* .react-chatbot-kit-chat-bot-message-container {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+} */
+
+/* Customize bot message */
+/* .react-chatbot-kit-chat-bot-message {
+  margin-bottom: 5px;
+} */
+
+/* Customize bot message arrow */
+/* .react-chatbot-kit-chat-bot-message-arrow {
+  border-top-color: #f0f0f0;
+} */
+
+/* Customize bot avatar container */
+/* .react-chatbot-kit-chat-bot-avatar-container {
+  display: none;
+} */

@@ -1,0 +1,156 @@
+/* .star{
+  color: orange;  
+} */
+.clientCards{
+  overflow: hidden;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  #leftBtn {
+    height: 40px;
+    width: 40px;
+  }
+  #leftBtn img{
+    height: 20px;
+    width: 20px;
+  }
+  #rightBtn {
+    height: 40px;
+    width: 40px;
+  }
+  #rightBtn img{
+    height: 20px;
+    width: 20px;
+  }
+  .clientCards {
+    height: 40vh;
+    width: 25vw;
+  }
+  .topText {
+    margin-left: 30px;
+  }
+  .clientImgs {
+    height: 100px;
+    width: 100px;
+  }
+  .clientDes {
+    font-size: 0.8rem;
+  }
+  .clientParent {
+    margin-bottom: 10px;
+  }
+  .logButtons {
+    bottom: 10%;
+  }
+}
+@media (max-width: 1000px) {
+  .middleBackg {
+    display: none;
+  }
+  .topClientText {
+    text-align: center;
+    font-size: 30px;
+  }
+  .flip1 {
+    flex-direction: column;
+    position: relative !important;
+    gap: 20px;
+  }
+  .clientImg {
+    max-width: 135px;
+    max-height: 135px;
+    height: 15vw;
+    width: 15vw;
+  }
+  .flexToGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal-width columns */
+    /* gap: 10px;  */
+    /* padding: 0 10px; */
+    justify-content: center;
+    align-items: center; /* Optional: vertically center items */
+  }
+  .flip2 {
+    flex-direction: column;
+    gap: 20px;
+    position: relative !important;
+  }
+  .clientCards {
+    height: 45vh;
+    width: 45vw;
+    min-height: 300px !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    margin-top: 0% !important;
+  }
+  /* .clientCards:hover{
+    transform: translateY(-10px);
+
+  } */
+  .absoluteToRelative {
+    display: block !important;
+  }
+  .absoluteToRelative1 {
+    display: block !important;
+    right: 0px;
+  }
+  .logButtons {
+    display: none;
+  }
+  #leftBtn {
+    display: none;
+  }
+  #rightBtn {
+    display: none;
+  }
+  .clientBody {
+    height: 144vh;
+  }
+  .clientParent {
+    width: 97vw !important;
+  }
+}
+
+@media (min-height: 300px) and (max-height:932px)and (max-width:500px){
+  .flip1{
+    flex-direction: column-reverse !important;
+    /* width: 100vw; */
+    padding-left: 30px;
+    /* border: 2px solid black; */
+  }
+  .flextoGapZ{
+    gap: 3px !important;
+  }
+  .body{
+    gap: 0px !important;
+  }
+  .clientImg{
+    height: 15vh;
+    width: 15vh;
+  }
+  .clientCards{
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    /* margin: 0px 5vw; */
+  }
+  .flip2{
+    display: none !important;
+  }
+  .clientDes {
+    text-align: center;
+    font-size: 0.8em;
+    height: auto;
+  }
+  .starSection{
+    margin-top: 3px !important;
+  }
+  .topText{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media (min-height: 300px) and (max-height:750px){
+  .clientCards{
+    height: 300px !important;
+  }
+}

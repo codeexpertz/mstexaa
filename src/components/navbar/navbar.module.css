@@ -1,0 +1,32 @@
+.navbar {
+  transition: all 0.3s ease;
+}
+@media (max-width: 1000px) {
+  .navBar {
+    height: 58px;
+  }
+  .navLogo {
+    /* top: -50px !important; */
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 500px) {
+  .navbar {
+    width: 99.5vw !important;
+  }
+}

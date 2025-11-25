@@ -1,0 +1,50 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 20px;
+    
+  } */
+  
+  .top{
+    display: flex;
+  }
+  
+  .imgContainer{
+    width: 90%;
+   
+    height: 400px;
+    position: relative;
+  }
+  
+  .img{
+    object-fit: cover;
+    border-radius: 5%;
+  }
+  
+  .date{
+    font-size: 12px;
+    transform: rotate(270deg);
+    margin: auto;
+    white-space: nowrap;
+  }
+  
+  .title{
+    width: 90%;
+    font-size: 24px;
+    margin: 20px 0;
+    font-family: 'poppins';
+    font-weight: 700;
+  }
+  
+  .desc{
+    width: 90%;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: gray;
+    
+  }
+  
+  .link{
+    text-decoration: underline;
+  }

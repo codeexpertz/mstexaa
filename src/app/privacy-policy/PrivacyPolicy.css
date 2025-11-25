@@ -1,0 +1,47 @@
+.privacyContainer {
+    max-width: 800px;
+    margin-top: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* h3{
+    font-family: 'popins';
+    font-weight: 700;
+  } */
+  
+  .accept {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  /* ul li{
+    list-style-type: circle;
+  } */
+  .accept input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #submitButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  table{
+    border: 1px solid black;
+  }
+  th{
+    border: 1px solid black;
+  }

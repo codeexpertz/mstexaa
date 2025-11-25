@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+/* .form input{
+    padding: 20px;
+    background-color: var(--bg);
+    color: var(--textColor);
+    border-bottom: 1px solid black;
+  
+  } */
