@@ -6,16 +6,36 @@ import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
-  title: {
-    default: "Mstexa",
-  },
+  title: "Mstexa",
   description: "Mstexa Freelancing Services",
   icons: {
     icon: [
-      { url: '/logo2.jpg', type: 'image/jpg' }
+      {
+        url: "/favicon.ico",
+        sizes: "any",
+      },
+      {
+        url: "/icon-192x192.png",
+        type: "image/png",
+        sizes: "192x192",
+      },
+      {
+        url: "/icon-512x512.png",
+        type: "image/png",
+        sizes: "512x512",
+      },
+    ],
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
     ],
   },
+  manifest: "/manifest.json",
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -31,9 +51,9 @@ export default function RootLayout({ children }) {
           </Link> */}
             <Navbar />
             {children}
-          <div className="relative py-6 z-10 ">
-                    {/* Decorative background image anchored to top-left */}
-        {/* <div
+            <div className="relative py-6 z-10 ">
+              {/* Decorative background image anchored to top-left */}
+              {/* <div
           aria-hidden="true"
           className="pointer-events-none absolute -z-50 inset-0"
         >
@@ -44,11 +64,11 @@ export default function RootLayout({ children }) {
           />
         </div> */}
 
-            <Footer/>
-           </div>
-          </div>                        
+              <Footer />
+            </div>
+          </div>
         </Providers>
-      </body>              
+      </body>
     </html>
   );
 }
