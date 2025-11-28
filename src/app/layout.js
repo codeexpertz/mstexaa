@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-          <div className="w-[99.6vw] overflow-hidden px-6">
+          <div className="w-[99.6vw] overflow-hidden">
             {/* <Link
            
             href="https://wa.me/+923446743886?text=Hello%20there"
